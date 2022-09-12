@@ -21,9 +21,11 @@ npm install
 Create a .env file in the root of the project and add the following:  
 
 ```
-DATABASEURL='<url>'
-API_KEY=''<key>
-API_SECRET='<secret>'
+DB_URL=
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_KEY=
+CLOUDINARY_SECRET=
+MAPBOX_TOKEN=
 ```
 
 Run ```mongod``` in another terminal and ```node app.js``` in the terminal with the project.  
